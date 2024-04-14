@@ -176,3 +176,43 @@ section h2 {
     padding: 50px 80px;
     text-align: center;
 }
+
+/* Estilos Our Services */
+#our-services{
+    background-color: #16C79A;
+    color: #F8F1F1;
+}
+.Services{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4vh;
+}
+.service{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.img-service{
+    height: 100%;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #11698E;
+    border-radius: 100%;
+}
+.img-service img {
+    max-width: 90%; / Para asegurar que la imagen no se extienda más allá de su contenedor /
+    height: auto; / Mantiene la relación de aspecto */
+    max-width: 90px;
+    border-radius: 100%;
+    filter: drop-shadow(0px 0px 5px #000);
+}
+@media screen and (max-width: 576px) {
+    .service{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+}
