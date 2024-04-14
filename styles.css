@@ -208,6 +208,7 @@ section h2 {
     border-radius: 100%;
     filter: drop-shadow(0px 0px 5px #000);
 }
+
 @media screen and (max-width: 576px) {
     .service{
         display: flex;
@@ -215,4 +216,27 @@ section h2 {
         gap: 20px;
         align-items: center;
     }
+}
+
+/* Estilos Slogan */
+.slogan{
+    background-color: #11698E;
+}
+
+/* Estilos Formulario*/
+.contact-form{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+#contact-us{
+    color: #F8F1F1;
+    padding: 0%;
+}
+.contact-background{
+    padding-top: 8vh;
+    padding-bottom: 5vh;
+    border-radius: 0px 0px 20px 20px;
+    background-color: #11698E;
 }
